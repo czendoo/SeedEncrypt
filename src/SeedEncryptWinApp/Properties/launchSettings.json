@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SeedEncryptWinApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SeedEncryptWinApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="cs" original="SEEDENCRYPTWINAPP/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="SEEDENCRYPTWINAPP/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="Default" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">Výchozí</target>
+        </trans-unit>
+        <trans-unit id="NavItemAbout.Content" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="translated">O aplikaci</target>
+        </trans-unit>
+        <trans-unit id="NavItemHome.Content" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="translated">Domov</target>
+        </trans-unit>
+        <trans-unit id="AppBarBtnBack.Label" translate="yes" xml:space="preserve">
+          <source>Delete last</source>
+          <target state="translated">Smazat poslední</target>
+        </trans-unit>
+        <trans-unit id="AppBarBtnBack.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Delete last word</source>
+          <target state="translated">Smazat poslední slovo</target>
+        </trans-unit>
+        <trans-unit id="AppBarBtnClear.Label" translate="yes" xml:space="preserve">
+          <source>Clear all</source>
+          <target state="translated">Smazat vše</target>
+        </trans-unit>
+        <trans-unit id="AppBarBtnClear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Delete all words</source>
+          <target state="translated">Smazat všechna slova</target>
+        </trans-unit>
+        <trans-unit id="AppBarBtnGenerate.Label" translate="yes" xml:space="preserve">
+          <source>Generate</source>
+          <target state="translated">Vygenerovat</target>
+        </trans-unit>
+        <trans-unit id="AppBarBtnGenerate.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Generate new seed phrase</source>
+          <target state="translated">Vygenerovat nový seed</target>
+        </trans-unit>
+        <trans-unit id="EditSeedTitle" translate="yes" xml:space="preserve">
+          <source>Seed Editor</source>
+          <target state="translated">Editor seedu</target>
+        </trans-unit>
+        <trans-unit id="EditSeedWord.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Type word to add to the seed phrase</source>
+          <target state="translated">Slovo, které bude přidáno do seedu</target>
+        </trans-unit>
+        <trans-unit id="ErrWordNotFound" translate="yes" xml:space="preserve">
+          <source>The word was not found in the bip39 word list</source>
+          <target state="translated">Slovo nenalezeno ve slovníku bip39</target>
+        </trans-unit>
+        <trans-unit id="SeedPhraseInvalid" translate="yes" xml:space="preserve">
+          <source>The seed phrase is invalid</source>
+          <target state="translated">Seed není validní</target>
+        </trans-unit>
+        <trans-unit id="SeedPhraseValid" translate="yes" xml:space="preserve">
+          <source>The seed phrase is valid</source>
+          <target state="translated">Seed je validní</target>
+        </trans-unit>
+        <trans-unit id="TextBoxEncryptedSeed.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Click Encrypt to protect the seed phrase by password</source>
+          <target state="translated">Klikněte na Encrypt pro zašifrování seedu pomocí hesla</target>
+        </trans-unit>
+        <trans-unit id="EditPassword.Header" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">Heslo</target>
+        </trans-unit>
+        <trans-unit id="CheckBoxShowPassword.Content" translate="yes" xml:space="preserve">
+          <source>Show password</source>
+          <target state="translated">Ukázat heslo</target>
+        </trans-unit>
+        <trans-unit id="BtnCancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated">Zrušit</target>
+        </trans-unit>
+        <trans-unit id="BtnSubmit" translate="yes" xml:space="preserve">
+          <source>Submit</source>
+          <target state="translated">Potvrdit</target>
+        </trans-unit>
+        <trans-unit id="EncryptDialogTitle" translate="yes" xml:space="preserve">
+          <source>Encrypt</source>
+          <target state="translated">Zašiforvat</target>
+        </trans-unit>
+        <trans-unit id="ErrMsgProvideValidPassword" translate="yes" xml:space="preserve">
+          <source>Please, provide valid password</source>
+          <target state="translated">Prosím, zadejte platné heslo</target>
+        </trans-unit>
+        <trans-unit id="BtnOk" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">Potvrdit</target>
+        </trans-unit>
+        <trans-unit id="ConfirmContinue" translate="yes" xml:space="preserve">
+          <source>Do you really want to continue?</source>
+          <target state="translated">Opravdu chcete pokračovat?</target>
+        </trans-unit>
+        <trans-unit id="ConfirmLostSeed" translate="yes" xml:space="preserve">
+          <source>Current seed will be lost</source>
+          <target state="translated">Aktuální seed bude ztracen</target>
+        </trans-unit>
+        <trans-unit id="SettingsLanguageTitle.Text" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="translated">Jazyk</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeSubtitle.Text" translate="yes" xml:space="preserve">
+          <source>Select color theme</source>
+          <target state="translated">Nastavení barevného schéma</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeTitle.Text" translate="yes" xml:space="preserve">
+          <source>Theme</source>
+          <target state="translated">Barevné schéma</target>
+        </trans-unit>
+        <trans-unit id="SettingsSeedLanguageSubtitle.Text" translate="yes" xml:space="preserve">
+          <source>Select default seed language</source>
+          <target state="translated">Zvolte výchozí jazyk seedu</target>
+        </trans-unit>
+        <trans-unit id="SettingsSeedLanguageTitle.Text" translate="yes" xml:space="preserve">
+          <source>Default seed language</source>
+          <target state="translated">Výchozí jazyk seedu</target>
+        </trans-unit>
+        <trans-unit id="SettingsSeedLengthSubtitle.Text" translate="yes" xml:space="preserve">
+          <source>Select default seed word count</source>
+          <target state="translated">Zvolte výchozí počet slov seedu</target>
+        </trans-unit>
+        <trans-unit id="SettingsSeedLengthTitle.Text" translate="yes" xml:space="preserve">
+          <source>Default seed length</source>
+          <target state="translated">Výchozí počet slov seedu</target>
+        </trans-unit>
+        <trans-unit id="SettingsGroupGeneral.Text" translate="yes" xml:space="preserve">
+          <source>General settings</source>
+          <target state="translated">Obecná nastavení</target>
+        </trans-unit>
+        <trans-unit id="SettingsGroupUserInterface.Text" translate="yes" xml:space="preserve">
+          <source>User interface settings</source>
+          <target state="translated">Vzhled</target>
+        </trans-unit>
+        <trans-unit id="AboutGroupEncryptionInfo.Text" translate="yes" xml:space="preserve">
+          <source>Encryption</source>
+          <target state="translated">Šifrování</target>
+        </trans-unit>
+        <trans-unit id="AboutGroupVersion.Text" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="translated">Verze</target>
+        </trans-unit>
+        <trans-unit id="AboutVersionSubtitle.Text" translate="yes" xml:space="preserve">
+          <source>Application version</source>
+          <target state="translated">Verze aplikace</target>
+        </trans-unit>
+        <trans-unit id="AboutVersionTitle.Text" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="translated">Verze</target>
+        </trans-unit>
+        <trans-unit id="SettingsLanguageSubtitle.Text" translate="yes" xml:space="preserve">
+          <source>Select language of the user interface</source>
+          <target state="translated">Zvolte jazyk uživatelského rozhraní</target>
+        </trans-unit>
+        <trans-unit id="BtcCopy.Content" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="translated">Kopírovat</target>
+        </trans-unit>
+        <trans-unit id="BtnSave" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated">Uložit</target>
+        </trans-unit>
+        <trans-unit id="ConfirmChangeWordCount" translate="yes" xml:space="preserve">
+          <source>Change the word count?</source>
+          <target state="translated">Změnit počet slov?</target>
+        </trans-unit>
+        <trans-unit id="ConfirmSeedNotEmpty" translate="yes" xml:space="preserve">
+          <source>The seed is not empty</source>
+          <target state="translated">Seed není prázdný</target>
+        </trans-unit>
+        <trans-unit id="LangCombo.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Seed language</source>
+          <target state="translated">Jazyk seedu</target>
+        </trans-unit>
+        <trans-unit id="WordCountCombo.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Word count</source>
+          <target state="translated">Počet slov</target>
+        </trans-unit>
+        <trans-unit id="AboutEncryptionAlgo.Header" translate="yes" xml:space="preserve">
+          <source>Encryption algorithm</source>
+          <target state="translated">Šifrovací algoritmus</target>
+        </trans-unit>
+        <trans-unit id="AboutEncryptionUsage.Header" translate="yes" xml:space="preserve">
+          <source>About encryption</source>
+          <target state="translated">O šifrovací metodě</target>
+        </trans-unit>
+        <trans-unit id="EditPassword.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter password</source>
+          <target state="translated">Zadejte heslo</target>
+        </trans-unit>
+        <trans-unit id="EditPasswordRepeat.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter the password again</source>
+          <target state="translated">Opakujte heslo</target>
+        </trans-unit>
+        <trans-unit id="ErrMsgProvideValidPrimarySeed" translate="yes" xml:space="preserve">
+          <source>Please, provide valid primary cipher seed</source>
+          <target state="translated">Zadejte primární zašifrovaný seed</target>
+        </trans-unit>
+        <trans-unit id="ErrMsgProvideValidSecondarySeed" translate="yes" xml:space="preserve">
+          <source>Please, provide valid secondary cipher seed</source>
+          <target state="translated">Zadejte sekundární zašiforvaný seed</target>
+        </trans-unit>
+        <trans-unit id="BtnDecryptToolTip" translate="yes" xml:space="preserve">
+          <source>Decrypt seed phrase</source>
+          <target state="translated">Dešifrovat seed</target>
+        </trans-unit>
+        <trans-unit id="BtnEncryptToolTip" translate="yes" xml:space="preserve">
+          <source>Encrypt the seed phrase</source>
+          <target state="translated">Zašifrovat seed</target>
+        </trans-unit>
+        <trans-unit id="ErrMsgProvideValidSeed" translate="yes" xml:space="preserve">
+          <source>Please, provide valid seed phrase</source>
+          <target state="translated">Zadejte seed</target>
+        </trans-unit>
+        <trans-unit id="BtnDecrypt" translate="yes" xml:space="preserve">
+          <source>Decrypt</source>
+          <target state="translated">Dešifrovat</target>
+        </trans-unit>
+        <trans-unit id="DecryptDialogTitle" translate="yes" xml:space="preserve">
+          <source>Decrypt</source>
+          <target state="translated">Dešifrovat</target>
+        </trans-unit>
+        <trans-unit id="EditImportSeed.Header" translate="yes" xml:space="preserve">
+          <source>Seed phrase</source>
+          <target state="translated">Seed</target>
+        </trans-unit>
+        <trans-unit id="EditImportSeed.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter seed phrase as text</source>
+          <target state="translated">Zadejte seed v textové podobě</target>
+        </trans-unit>
+        <trans-unit id="EnterSeedDialogTitle" translate="yes" xml:space="preserve">
+          <source>Enter seed phrase</source>
+          <target state="translated">Zadat seed</target>
+        </trans-unit>
+        <trans-unit id="AppBarBtnEnterSeed.Label" translate="yes" xml:space="preserve">
+          <source>Enter seed phrase</source>
+          <target state="translated">Zadat seed</target>
+        </trans-unit>
+        <trans-unit id="AppBarBtnEnterSeed.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Enter seed phrase as a plain text</source>
+          <target state="translated">Zadat seed v textové podobě</target>
+        </trans-unit>
+        <trans-unit id="SeedBtnCopyLabel" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="translated">Kopírovat</target>
+        </trans-unit>
+        <trans-unit id="SeedBtnCopyToolTip" translate="yes" xml:space="preserve">
+          <source>Copy seed phrase as a plain text</source>
+          <target state="translated">Kopírovat seed jako text</target>
+        </trans-unit>
+        <trans-unit id="PrimaryCipherSeed" translate="yes" xml:space="preserve">
+          <source>Primary cipher seed</source>
+          <target state="translated">Primární zašifrovaný seed</target>
+        </trans-unit>
+        <trans-unit id="SecondaryCipherSeed" translate="yes" xml:space="preserve">
+          <source>Secondary cipher seed</source>
+          <target state="translated">Sekundární zašifrovaný seed</target>
+        </trans-unit>
+        <trans-unit id="BtnEncrypt" translate="yes" xml:space="preserve">
+          <source>Encrypt</source>
+          <target state="translated">Zašifrovat</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

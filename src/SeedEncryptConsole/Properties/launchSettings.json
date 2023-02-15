@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "SeedEncryptConsole": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    },
+    "WSL": {
+      "commandName": "WSL",
+      "distributionName": ""
+    },
+    "WSL 2": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

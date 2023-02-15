@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Default" xml:space="preserve">
+    <value>Výchozí</value>
+  </data>
+  <data name="NavItemAbout.Content" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="NavItemHome.Content" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="AppBarBtnBack.Label" xml:space="preserve">
+    <value>Smazat poslední</value>
+  </data>
+  <data name="AppBarBtnBack.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Smazat poslední slovo</value>
+  </data>
+  <data name="AppBarBtnClear.Label" xml:space="preserve">
+    <value>Smazat vše</value>
+  </data>
+  <data name="AppBarBtnClear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Smazat všechna slova</value>
+  </data>
+  <data name="AppBarBtnGenerate.Label" xml:space="preserve">
+    <value>Vygenerovat</value>
+  </data>
+  <data name="AppBarBtnGenerate.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vygenerovat nový seed</value>
+  </data>
+  <data name="EditSeedTitle" xml:space="preserve">
+    <value>Editor seedu</value>
+  </data>
+  <data name="EditSeedWord.PlaceholderText" xml:space="preserve">
+    <value>Slovo, které bude přidáno do seedu</value>
+  </data>
+  <data name="ErrWordNotFound" xml:space="preserve">
+    <value>Slovo nenalezeno ve slovníku bip39</value>
+  </data>
+  <data name="SeedPhraseInvalid" xml:space="preserve">
+    <value>Seed není validní</value>
+  </data>
+  <data name="SeedPhraseValid" xml:space="preserve">
+    <value>Seed je validní</value>
+  </data>
+  <data name="TextBoxEncryptedSeed.PlaceholderText" xml:space="preserve">
+    <value>Klikněte na Encrypt pro zašifrování seedu pomocí hesla</value>
+  </data>
+  <data name="EditPassword.Header" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="CheckBoxShowPassword.Content" xml:space="preserve">
+    <value>Ukázat heslo</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="BtnSubmit" xml:space="preserve">
+    <value>Potvrdit</value>
+  </data>
+  <data name="EncryptDialogTitle" xml:space="preserve">
+    <value>Zašiforvat</value>
+  </data>
+  <data name="ErrMsgProvideValidPassword" xml:space="preserve">
+    <value>Prosím, zadejte platné heslo</value>
+  </data>
+  <data name="BtnOk" xml:space="preserve">
+    <value>Potvrdit</value>
+  </data>
+  <data name="ConfirmContinue" xml:space="preserve">
+    <value>Opravdu chcete pokračovat?</value>
+  </data>
+  <data name="ConfirmLostSeed" xml:space="preserve">
+    <value>Aktuální seed bude ztracen</value>
+  </data>
+  <data name="SettingsLanguageTitle.Text" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="SettingsThemeSubtitle.Text" xml:space="preserve">
+    <value>Nastavení barevného schéma</value>
+  </data>
+  <data name="SettingsThemeTitle.Text" xml:space="preserve">
+    <value>Barevné schéma</value>
+  </data>
+  <data name="SettingsSeedLanguageSubtitle.Text" xml:space="preserve">
+    <value>Zvolte výchozí jazyk seedu</value>
+  </data>
+  <data name="SettingsSeedLanguageTitle.Text" xml:space="preserve">
+    <value>Výchozí jazyk seedu</value>
+  </data>
+  <data name="SettingsSeedLengthSubtitle.Text" xml:space="preserve">
+    <value>Zvolte výchozí počet slov seedu</value>
+  </data>
+  <data name="SettingsSeedLengthTitle.Text" xml:space="preserve">
+    <value>Výchozí počet slov seedu</value>
+  </data>
+  <data name="SettingsGroupGeneral.Text" xml:space="preserve">
+    <value>Obecná nastavení</value>
+  </data>
+  <data name="SettingsGroupUserInterface.Text" xml:space="preserve">
+    <value>Vzhled</value>
+  </data>
+  <data name="AboutGroupEncryptionInfo.Text" xml:space="preserve">
+    <value>Šifrování</value>
+  </data>
+  <data name="AboutGroupVersion.Text" xml:space="preserve">
+    <value>Verze</value>
+  </data>
+  <data name="AboutVersionSubtitle.Text" xml:space="preserve">
+    <value>Verze aplikace</value>
+  </data>
+  <data name="AboutVersionTitle.Text" xml:space="preserve">
+    <value>Verze</value>
+  </data>
+  <data name="SettingsLanguageSubtitle.Text" xml:space="preserve">
+    <value>Zvolte jazyk uživatelského rozhraní</value>
+  </data>
+  <data name="BtcCopy.Content" xml:space="preserve">
+    <value>Kopírovat</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="ConfirmChangeWordCount" xml:space="preserve">
+    <value>Změnit počet slov?</value>
+  </data>
+  <data name="ConfirmSeedNotEmpty" xml:space="preserve">
+    <value>Seed není prázdný</value>
+  </data>
+  <data name="LangCombo.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Jazyk seedu</value>
+  </data>
+  <data name="WordCountCombo.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Počet slov</value>
+  </data>
+  <data name="AboutEncryptionAlgo.Header" xml:space="preserve">
+    <value>Šifrovací algoritmus</value>
+  </data>
+  <data name="AboutEncryptionUsage.Header" xml:space="preserve">
+    <value>O šifrovací metodě</value>
+  </data>
+  <data name="EditPassword.PlaceholderText" xml:space="preserve">
+    <value>Zadejte heslo</value>
+  </data>
+  <data name="EditPasswordRepeat.PlaceholderText" xml:space="preserve">
+    <value>Opakujte heslo</value>
+  </data>
+  <data name="ErrMsgProvideValidPrimarySeed" xml:space="preserve">
+    <value>Zadejte primární zašifrovaný seed</value>
+  </data>
+  <data name="ErrMsgProvideValidSecondarySeed" xml:space="preserve">
+    <value>Zadejte sekundární zašiforvaný seed</value>
+  </data>
+  <data name="BtnDecryptToolTip" xml:space="preserve">
+    <value>Dešifrovat seed</value>
+  </data>
+  <data name="BtnEncryptToolTip" xml:space="preserve">
+    <value>Zašifrovat seed</value>
+  </data>
+  <data name="ErrMsgProvideValidSeed" xml:space="preserve">
+    <value>Zadejte seed</value>
+  </data>
+  <data name="BtnDecrypt" xml:space="preserve">
+    <value>Dešifrovat</value>
+  </data>
+  <data name="DecryptDialogTitle" xml:space="preserve">
+    <value>Dešifrovat</value>
+  </data>
+  <data name="EditImportSeed.Header" xml:space="preserve">
+    <value>Seed</value>
+  </data>
+  <data name="EditImportSeed.PlaceholderText" xml:space="preserve">
+    <value>Zadejte seed v textové podobě</value>
+  </data>
+  <data name="EnterSeedDialogTitle" xml:space="preserve">
+    <value>Zadat seed</value>
+  </data>
+  <data name="AppBarBtnEnterSeed.Label" xml:space="preserve">
+    <value>Zadat seed</value>
+  </data>
+  <data name="AppBarBtnEnterSeed.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zadat seed v textové podobě</value>
+  </data>
+  <data name="SeedBtnCopyLabel" xml:space="preserve">
+    <value>Kopírovat</value>
+  </data>
+  <data name="SeedBtnCopyToolTip" xml:space="preserve">
+    <value>Kopírovat seed jako text</value>
+  </data>
+  <data name="PrimaryCipherSeed" xml:space="preserve">
+    <value>Primární zašifrovaný seed</value>
+  </data>
+  <data name="SecondaryCipherSeed" xml:space="preserve">
+    <value>Sekundární zašifrovaný seed</value>
+  </data>
+  <data name="BtnEncrypt" xml:space="preserve">
+    <value>Zašifrovat</value>
+  </data>
+</root>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400mm"
+   height="400mm"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg457"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs454">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter9063"
+       x="-0.019414576"
+       y="-0.036971804"
+       width="1.0503854"
+       height="1.0959506">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood9053" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite9055" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2.8"
+         result="blur"
+         id="feGaussianBlur9057" />
+      <feOffset
+         dx="4"
+         dy="4"
+         result="offset"
+         id="feOffset9059" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite9061" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g5165"
+       style="filter:url(#filter9063)"
+       transform="matrix(1.0848389,0,0,1.5019702,-17.254968,-98.262528)">
+      <rect
+         style="fill:#3f9b79;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881"
+         width="104.68745"
+         height="50.608566"
+         x="147.65628"
+         y="174.69571"
+         ry="5.9010258" />
+      <rect
+         style="fill:#37c193;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881-6"
+         width="104.68745"
+         height="50.608566"
+         x="147.77701"
+         y="108.73308"
+         ry="5.9010258" />
+      <rect
+         style="fill:#266b4e;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881-6-4"
+         width="104.68745"
+         height="50.608566"
+         x="149.22298"
+         y="239.64465"
+         ry="5.9010258" />
+      <rect
+         style="fill:#1d4c81;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881-6-1"
+         width="104.68745"
+         height="50.608566"
+         x="268.03766"
+         y="174.23808"
+         ry="5.9010258" />
+      <rect
+         style="fill:#277387;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881-6-3"
+         width="104.68745"
+         height="50.608566"
+         x="26.636549"
+         y="174.4288"
+         ry="5.9010258" />
+      <rect
+         style="fill:#37a4c1;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881-6-0"
+         width="104.68745"
+         height="50.608566"
+         x="26.882622"
+         y="108.54232"
+         ry="5.9010258" />
+      <rect
+         style="fill:#3d64bb;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881-6-8"
+         width="104.68745"
+         height="50.608566"
+         x="268.08081"
+         y="108.7823"
+         ry="5.9010258" />
+      <rect
+         style="fill:#1d5666;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881-6-47"
+         width="104.68745"
+         height="50.608566"
+         x="26.685759"
+         y="239.69388"
+         ry="5.9010258" />
+      <rect
+         style="fill:#394c72;fill-opacity:1;stroke-width:1.29731;stroke-linejoin:round;stroke-opacity:0.995249;paint-order:stroke markers fill"
+         id="rect4881-6-84"
+         width="104.68745"
+         height="50.608566"
+         x="268.03766"
+         y="239.55235"
+         ry="5.9010258" />
+    </g>
+  </g>
+</svg>

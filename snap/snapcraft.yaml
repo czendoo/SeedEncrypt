@@ -1,0 +1,44 @@
+name: seedencrypt
+base: core22
+version: '1.0.1'
+summary: Bip39 encryption tool
+description: |
+  On the input, there is a bip39 seed phrase and user password. 
+  There are two valid bip39 seed phraeses on the output. 
+  The original seed phrase can be restored by providing valid password only.
+icon: art/SeedEncryptLogo.png
+grade: stable
+confinement: strict
+
+architectures:
+  - build-on: amd64
+    build-for: amd64
+  - build-on: [amd64, arm64]
+    build-for: arm64
+    
+apps:
+  seedencrypt: 
+    command: bin/SeedEncryptConsole
+
+parts:
+  seedencrypt-console:
+    source: src
+    source-type: local
+    plugin: dotnet
+    build-packages:
+      - dotnet-sdk-6.0
+      - dotnet-runtime-6.0
+    stage-packages:
+      - libicu-dev
+    override-build: |
+      case "$SNAPCRAFT_TARGET_ARCH" in
+        "amd64")
+        runtime=linux-x64
+        ;;
+        "arm64")
+        runtime=linux-arm64
+        ;;
+      esac     
+      dotnet publish SeedEncryptConsole -r ${runtime} -c Release --self-contained true -o $SNAPCRAFT_PART_INSTALL/bin/
+      chmod +x $SNAPCRAFT_PART_INSTALL/bin/SeedEncryptConsole
+    

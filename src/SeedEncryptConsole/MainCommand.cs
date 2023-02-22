@@ -33,7 +33,7 @@ namespace SeedEncryptConsole
             var options = new Option[]
             {
                 new Option("Generate new seed phrase") { Action = () => Generate() },
-                new Option("Enter seed phrase") { Action = () => Create(), Enabled = () => _mnemonic == null },
+                new Option("Enter seed phrase") { Action = () => Create() },
                 new Option("Encrypt") { Action = () => Encrypt(), Enabled = () => _mnemonic != null },
                 new Option("Decrypt") { Action = () => Decrypt() },
                 new Option("Show seed numbered") { Action = () => ShowSeedNumbered(), Enabled = () => _mnemonic != null },
@@ -51,7 +51,7 @@ namespace SeedEncryptConsole
 
             return 0;
         }
-        
+
         void Reset()
         {
             if (AnsiConsole.Confirm("Reset the runtime state of the application?", false))
@@ -211,7 +211,7 @@ namespace SeedEncryptConsole
                 return;
 
             string? password = PromptPassword(false);
-            if (password == null) 
+            if (password == null)
                 return;
 
             try
@@ -282,7 +282,7 @@ namespace SeedEncryptConsole
                     WriteHeader(header, "Invalid seed checksum", ColorError);
                 }
 
-                WriteRaw(mnemonic.ToString());
+                WriteRaw(mnemonic.ToString(), ConsoleColor.Magenta);
             }
             else
             {
@@ -365,7 +365,7 @@ namespace SeedEncryptConsole
                     .LeftJustified()
                     .Color(Color.DeepSkyBlue3));
 
-            AnsiConsole.Write(new Markup("[slateblue3]SeedEncrypt[/][deepskyblue2] > Bip39 seed phrase encryption tool[/]"));
+            AnsiConsole.Write(new Markup($"[{ColorInfo}]SeedEncrypt[/][{ColorNote}] > Bip39 seed phrase encryption tool[/]"));
 
             WriteLine();
         }

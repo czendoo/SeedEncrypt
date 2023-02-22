@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace SeedEncrypt
 {
     public class Puzzle
-    {
+    {       
         public const int IterationCount = 1 << 20;
 
         public Mnemonic Primary { get; init; }
@@ -118,7 +118,7 @@ namespace SeedEncrypt
 
             return Rfc2898DeriveBytes.Pbkdf2(
                 key,
-                salt,  
+                salt,
                 IterationCount,
                 HashAlgorithmName.SHA512,
                 keySize);

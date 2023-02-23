@@ -17,6 +17,7 @@ namespace SeedEncrypt
             yield return "Providing valid password, the pair of fake seed phrases is decrypted and the original seed phrase is restored";
             yield return "Wrong password provides just another fake seed phrase";
             yield return "It's not possible to distinguish a fake seed phrase from a regular one";
+            yield return "It's not possible to detect if the fake seed phrases are a result of encryption";
         }
 
         public static IEnumerable<string> GetPuzzleInfoLines()

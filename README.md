@@ -4,7 +4,7 @@
 - Providing valid password, the pair of fake seed phrases is decrypted and the original seed phrase is restored
 - Wrong password provides just another fake seed phrase
 - It's not possible to distinguish a fake seed phrase from a regular one
-- It's not possible to detect if the fake seed phrases are a result of encryption"
+- It's not possible to detect if the fake seed phrases are a result of encryption
 
 ![Img](./art/screenshots/seednecrypt-console-1.png)
 

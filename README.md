@@ -1,5 +1,5 @@
 # SeedEncrypt
-## The bep39 seed phrase encryption tool
+## The bip39 seed phrase encryption tool
 - A given seed phrase is encrypted by password to a pair of fake seed phrases
 - Providing valid password, the pair of fake seed phrases is decrypted and the original seed phrase is restored
 - Wrong password provides just another fake seed phrase

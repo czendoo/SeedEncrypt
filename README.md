@@ -13,7 +13,7 @@
 sudo snap install seedencrypt
 ```
 
-# Run from sourcecode
+# Run from source code
 The .NET 6 SDK is required in order to run the console app
 
 ```

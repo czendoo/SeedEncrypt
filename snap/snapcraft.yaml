@@ -1,6 +1,6 @@
 name: seedencrypt
 base: core22
-version: '1.0.1'
+version: '1.0.2'
 summary: Bip39 encryption tool
 description: |
   On the input, there is a bip39 seed phrase and user password. 

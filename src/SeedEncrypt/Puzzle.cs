@@ -99,7 +99,7 @@ namespace SeedEncrypt
             using var argon = new Argon2(new Argon2Config()
             {
                 MemoryCost = 256 * 1024,
-                TimeCost = 4,
+                TimeCost = 8,
                 Lanes = 4,
                 Threads = Environment.ProcessorCount,
                 Salt = salt,

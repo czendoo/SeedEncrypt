@@ -14,7 +14,7 @@ sudo snap install seedencrypt
 ```
 
 # Run from sourcecode
-Dotnet 6 SDK is required in order to run the console app
+The .NET 6 SDK is required in order to run the console app
 
 ```
 cd SeedEncrypt/src/SeedEncryptConsole

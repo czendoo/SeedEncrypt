@@ -1,5 +1,10 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# SeedEncrypt
+## The bep39 seed phrase encryption tool
+- A given seed phrase is encrypted by password to a pair of fake seed phrases
+- Providing valid password, the pair of fake seed phrases is decrypted and the original seed phrase is restored
+- Wrong password provides just another fake seed phrase
+- It's not possible to distinguish a fake seed phrase from a regular one
+- It's not possible to detect if the fake seed phrase is a result of encryption"
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:

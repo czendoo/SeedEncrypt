@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace SeedEncrypt
 {
     public class Puzzle
-    {       
+    {
         public const int IterationCount = 1 << 20;
 
         public Mnemonic Primary { get; init; }
@@ -104,7 +104,7 @@ namespace SeedEncrypt
                 Threads = Environment.ProcessorCount,
                 Salt = salt,
                 Password = passwordBytes,
-                Type = Argon2Type.HybridAddressing,
+                Type = Argon2Type.DataDependentAddressing,
                 Version = Argon2Version.Nineteen,
                 HashLength = keySize
             });

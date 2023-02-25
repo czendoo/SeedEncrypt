@@ -25,7 +25,7 @@ namespace SeedEncrypt
             yield return "Password is normalized using the Unicode normalization form C";
             yield return "Random secondary seed is generated";
             yield return "2 * wordCount byte key is derived";
-            yield return "Key derivation step 1: Argon2id v19 / memory 256M / time 4 / lanes 4 / Secondary seed phrase used as a salt";
+            yield return "Key derivation step 1: Argon2id v19 / memory 256M / time 8 / lanes 4 / Secondary seed phrase used as a salt";
             yield return "Key derivation step 2: Rfc2898 Pbkdf2 / HMACSHA512 / 2^20 iterations / Secondary seed phrase used as a salt";
             yield return "New primary seed word indices = old word indices as array of USHORT XOR key";
             yield return "Checksum bits adjusted so the primary seed phrase is valid";

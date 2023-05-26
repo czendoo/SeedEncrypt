@@ -49,8 +49,8 @@ namespace SeedEncryptConsole.UI
 
             if (encrypt)
             {
-                if (password.Length < 12)
-                    WriteWarning($"Consider longer password: length={password.Length}");
+                if (password.Length < 16)
+                    WriteWarning($"Consider longer password (16 letters): length={password.Length}");
 
                 bool hasLowecase = false;
                 bool hasUppercase = false;

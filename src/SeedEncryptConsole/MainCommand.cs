@@ -202,12 +202,8 @@ namespace SeedEncryptConsole
             WriteNote("# Restore the original seed phrase");
             WriteNote("#");
 
-            Mnemonic? mnemonic1 = PromptSeedPhrase("Enter primary cipher seed");
+            Mnemonic? mnemonic1 = PromptSeedPhrase("Enter the cipher seed");
             if (mnemonic1 == null)
-                return;
-
-            Mnemonic? mnemonic2 = PromptSeedPhrase("Enter secondary cipher seed");
-            if (mnemonic2 == null)
                 return;
 
             string? password = PromptPassword(false);
@@ -220,7 +216,7 @@ namespace SeedEncryptConsole
                     .Start("Decrypting the seed phrase", ctx =>
                     {
                         Stopwatch stopwatch = Stopwatch.StartNew();
-                        var puzzle = SeedEncrypt.Puzzle.Create(mnemonic1, password, mnemonic2);
+                        var puzzle = SeedEncrypt.Puzzle.Create(mnemonic1, password);
                         stopwatch.Stop();
 
                         WriteNote($"Decryption time: {stopwatch.ElapsedMilliseconds} ms");
@@ -329,8 +325,7 @@ namespace SeedEncryptConsole
 
         void ShowPuzzle(Puzzle puzzle)
         {
-            ShowSeed(puzzle.Primary, "Primary cipher seed phrase");
-            ShowSeed(puzzle.Secondary, "Secondary cipher seed phrase");
+            ShowSeed(puzzle.Primary, "The cipher seed phrase");
         }
 
         void ShowAbout()

@@ -1,10 +1,10 @@
 name: seedencrypt
 base: core22
-version: '1.0.3'
+version: '2.0.1'
 summary: Bip39 encryption tool
 description: |
   On the input, there is a bip39 seed phrase and user password. 
-  There are two valid bip39 seed phraeses on the output. 
+  There is a valid bip39 seed phrase on the output. 
   The original seed phrase can be restored by providing valid password only.
 icon: art/SeedEncryptLogo.png
 grade: stable

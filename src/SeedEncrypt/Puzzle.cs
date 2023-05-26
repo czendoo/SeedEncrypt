@@ -16,15 +16,12 @@ namespace SeedEncrypt
 
         public Mnemonic Primary { get; init; }
 
-        public Mnemonic Secondary { get; init; }
-
-        Puzzle(Mnemonic primary, Mnemonic secondary)
+        Puzzle(Mnemonic primary)
         {
             Primary = primary;
-            Secondary = secondary;
         }
 
-        public static Puzzle Create(Mnemonic primary, string password, Mnemonic? secondary = null)
+        public static Puzzle Create(Mnemonic primary, string password)
         {
             int wordCount = primary.Words.Length;
             int bitCount = wordCount * 11;
@@ -32,16 +29,9 @@ namespace SeedEncrypt
             int entropyBitCount = entropyByteCount * 8;
             int checksumBitCount = bitCount - entropyBitCount;
 
-            secondary ??= new Mnemonic(primary.WordList, (WordCount)wordCount);
-            int[] indices2 = secondary.Indices.ToArray();
-            indices2[0] &= 2046;
-            RecountChecksum(indices2, wordCount, entropyByteCount, entropyBitCount, checksumBitCount);
-            string seedPhrase2 = primary.WordList.GetSentence(indices2);
-            secondary = new Mnemonic(seedPhrase2, primary.WordList);
-
 
             int[] indices = primary.Indices.ToArray();
-            byte[] salt = Encoding.UTF8.GetBytes(seedPhrase2);
+            byte[] salt = Encoding.UTF8.GetBytes($"seedencrypt:salt:{password}");
             byte[] key = CreateKey(salt, password, wordCount * 2);
 
             for (int i = 0; i < wordCount; i++)
@@ -53,7 +43,7 @@ namespace SeedEncrypt
 
             primary = new Mnemonic(primary.WordList.GetSentence(indices), primary.WordList);
 
-            return new Puzzle(primary, secondary);
+            return new Puzzle(primary);
         }
 
         static void RecountChecksum(int[] indices, int wordCount, int entropyByteCount, int entropyBitCount, int checksumBitCount)

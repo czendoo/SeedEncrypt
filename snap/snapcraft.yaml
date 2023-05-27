@@ -41,4 +41,3 @@ parts:
       esac     
       dotnet publish SeedEncryptConsole -r ${runtime} -c Release --self-contained true -o $SNAPCRAFT_PART_INSTALL/bin/
       chmod +x $SNAPCRAFT_PART_INSTALL/bin/SeedEncryptConsole
-    

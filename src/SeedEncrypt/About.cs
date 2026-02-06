@@ -13,11 +13,11 @@ namespace SeedEncrypt
     {
         public static IEnumerable<string> GetPuzzleHelpLines()
         {
-            yield return "A given seed phrase is encrypted by password to a fake seed phrase";
-            yield return "Providing valid password, the fake seed phrase is decrypted and the original seed phrase is restored";
-            yield return "Wrong password provides just another fake seed phrase";
-            yield return "It's not possible to distinguish a fake seed phrase from a regular one";
-            yield return "It's not possible to detect if the fake seed phrase are a result of encryption";
+            yield return "A given seed phrase is transformed into a valid seed phrase using a password";
+            yield return "The transformed seed phrase has a valid BIP39 checksum, making it indistinguishable from a regular seed phrase";
+            yield return "Applying the same password to the transformed seed phrase restores the original seed phrase";
+            yield return "Using an incorrect password produces a different valid seed phrase";
+            yield return "There is no way to detect whether a seed phrase is original or password-transformed";
         }
 
         public static IEnumerable<string> GetPuzzleInfoLines()
